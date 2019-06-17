@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3f12022-a972-4a0f-a4e1-9c3109d790fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task 2.2/Hash.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,25 +16,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/recipemanager/presentation_layer/Chef.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2256">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#sortIngredientsByCalories#0;class#Chef#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+        <entry file="file://$PROJECT_DIR$/../../Task 2.2/ListCompare/src/main/minsk/ListComparator/ListCompare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="153">
+              <caret line="9" column="67" lean-forward="true" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -114,6 +101,9 @@
         <option value="$PROJECT_DIR$/src/main/java/recipemanager/datasources/DataSourceConnector.java" />
         <option value="$PROJECT_DIR$/src/main/java/recipemanager/data_source_connectors/DataSourceConnector.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/../../Task 2.2/Hash.java" />
+        <option value="$PROJECT_DIR$/../../Task 2.2/ListCompare.java" />
+        <option value="$PROJECT_DIR$/../../Task 2.2/ListCompare/src/main/minsk/ListCompare.java" />
       </list>
     </option>
   </component>
@@ -125,10 +115,12 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,90 +150,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SaladRecipesManager" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SaladRecipesManager" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="SaladRecipesManager" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SaladRecipesManager" type="616d4139:PackageViewModuleNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="SaladRecipesManager" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SaladRecipesManager" type="616d4139:PackageViewModuleNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
-              <item name="java.recipemanager" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="SaladRecipesManager" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SaladRecipesManager" type="616d4139:PackageViewModuleNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
-              <item name="java.recipemanager" type="1f31426a:PackageElementNode" />
-              <item name="custom_exceptions" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="SaladRecipesManager" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SaladRecipesManager" type="616d4139:PackageViewModuleNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
-              <item name="java.recipemanager" type="1f31426a:PackageElementNode" />
-              <item name="DAO" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="SaladRecipesManager" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SaladRecipesManager" type="616d4139:PackageViewModuleNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
-              <item name="java.recipemanager" type="1f31426a:PackageElementNode" />
-              <item name="data_source_connectors" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="SaladRecipesManager" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SaladRecipesManager" type="616d4139:PackageViewModuleNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
-              <item name="java.recipemanager" type="1f31426a:PackageElementNode" />
-              <item name="entities" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="SaladRecipesManager" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SaladRecipesManager" type="616d4139:PackageViewModuleNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
-              <item name="java.recipemanager" type="1f31426a:PackageElementNode" />
-              <item name="entities" type="1f31426a:PackageElementNode" />
-              <item name="vegetable_types" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="SaladRecipesManager" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SaladRecipesManager" type="616d4139:PackageViewModuleNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
-              <item name="java.recipemanager" type="1f31426a:PackageElementNode" />
-              <item name="ingredient_comparators" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="SaladRecipesManager" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SaladRecipesManager" type="616d4139:PackageViewModuleNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
-              <item name="java.recipemanager" type="1f31426a:PackageElementNode" />
-              <item name="presentation_layer" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="SaladRecipesManager" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SaladRecipesManager" type="616d4139:PackageViewModuleNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
-              <item name="resources" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560762804964" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Task 2.2/Hash.java" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -272,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.list">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -284,8 +198,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="list" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.list" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -314,9 +235,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3698941" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37594554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -331,7 +251,7 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.64705884" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49848714" weight="0.12418301" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -343,34 +263,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3267974" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49924356" visible="true" weight="0.08169935" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.64705884" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49848714" weight="0.12418301" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
@@ -590,9 +482,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/recipemanager/presentation_layer/Chef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2256">
+        <state relative-caret-position="17">
           <caret line="127" selection-start-line="127" selection-end-line="127" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -601,10 +500,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+    <entry file="file://$PROJECT_DIR$/../../Task 2.2/ListCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+          <folding>
+            <element signature="method#main#0;class#List#0" />
+            <element signature="e#144#153#0" expanded="true" />
+            <element signature="e#212#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Task 2.2/ListCompare/bin/ListCompare.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Task 2.2/2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Task 2.2/ListCompare/src/main/minsk/ListCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Task 2.2/ListCompare/src/main/minsk/ListCompare.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#1849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Task 2.2/ListCompare/src/main/minsk/ListComparator/ListCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="67" lean-forward="true" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
         </state>
       </provider>
     </entry>
