@@ -1,17 +1,20 @@
+mport java.util.*;
+
+public class Set {
+
 public static void main(String[] args) {
  
 	Random r = new Random();
  
-	HashSet<Dog> hashSet = new HashSet<Dog>();
-	TreeSet<Dog> treeSet = new TreeSet<Dog>();
-	LinkedHashSet<Dog> linkedSet = new LinkedHashSet<Dog>();
- 
+	HashSet<Integer> hashSet = new HashSet<Integer>();
+	TreeSet<Integer> treeSet = new TreeSet<Integer>();
+
 	// start time
 	long startTime = System.nanoTime();
  
 	for (int i = 0; i < 1000; i++) {
 		int x = r.nextInt(1000 - 10) + 10;
-		hashSet.add(new Dog(x));
+		hashSet.add(new Integer(x));
 	}
 	// end time
 	long endTime = System.nanoTime();
@@ -22,22 +25,12 @@ public static void main(String[] args) {
 	startTime = System.nanoTime();
 	for (int i = 0; i < 1000; i++) {
 		int x = r.nextInt(1000 - 10) + 10;
-		treeSet.add(new Dog(x));
+		treeSet.add(new Integer(x));
 	}
 	// end time
 	endTime = System.nanoTime();
 	duration = endTime - startTime;
 	System.out.println("TreeSet: " + duration);
  
-	// start time
-	startTime = System.nanoTime();
-	for (int i = 0; i < 1000; i++) {
-		int x = r.nextInt(1000 - 10) + 10;
-		linkedSet.add(new Dog(x));
-	}
-	// end time
-	endTime = System.nanoTime();
-	duration = endTime - startTime;
-	System.out.println("LinkedHashSet: " + duration);
- 
+}
 }
