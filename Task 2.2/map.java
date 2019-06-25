@@ -1,66 +1,96 @@
-public class MapsInvestigation {
+import java.util.*;
 
-public static HashMap<String, String> hashMap = new HashMap<String, String>();
-public static TreeMap<String, String> treeMap = new TreeMap<String, String>();
-public static ArrayList<String> list = new ArrayList<String>();
+public class TimingTest {
+  public static void main(String[] args) {
+     
+    Map<String, String> HM = new HashMap<String,String>();
+    Map<String, String>TM = new TreeMap<String,String>();
+    
+//Hashmap put
+    
+    long startTimeHMP = System.nanoTime();
+        for (int i = 0; i < 100000; i++) {
+            HM.put(Integer.toString(i), "foo");
+        }
+    long endTimeHMP = System.nanoTime();
+    long durationHMP = endTimeHMP - startTimeHMP;
 
-static {
-    for (int i = 0; i < 10000; i++) {
-        list.add(Integer.toString(i, 16));
-    }
-}
+ System.out.println("HashMap put: " + durationHMP);
+ 
+ //Hashmap get
+ 
+    long startTimeHMG = System.nanoTime();
+        for(int i = 0; i < 100000; i++) {
+            HM.get("0");
+            HM.get("1");
+            HM.get("2");
+            HM.get("3");
+            HM.get("4");
+            HM.get("5");
+            HM.get("6");
+            HM.get("7");
+            HM.get("8");
+            HM.get("9");
+        }
+    long endTimeHMG = System.nanoTime();
+    long durationHMG = endTimeHMG - startTimeHMG;
+
+ System.out.println("HashMap get: " + durationHMG);
+ 
+ //Hashmap remove
+ 
+    long startTimeHMR = System.nanoTime();
+        for (int i = 0; i < 100000; i++) {
+            HM.remove(Integer.toString(i), "foo");
+        }
+    long endTimeHMR = System.nanoTime();
+    long durationHMR = endTimeHMR - startTimeHMR;
+
+ System.out.println("HashMap remove: " + durationHMR);
 
 
-public static void main(String[] args) {
-    System.out.println("Warmup populate");
-    for (int i = 0; i < 1000; i++) {
-        populateSet(hashMap);
-        populateSet(treeMap);
-    }
-    measureTimeToPopulate(hashMap, "HashMap", 1000);
-    measureTimeToPopulate(treeMap, "TreeMap", 1000);
-
-    System.out.println("Warmup get");
-    for (int i = 0; i < 1000; i++) {
-        get(hashMap);
-        get(treeMap);
-    }
-    measureTimeToContains(hashMap, "HashMap", 1000);
-    measureTimeToContains(treeMap, "TreeMap", 1000);
-
-}
-
-private static void get(Map<String, String> map) {
-    for (String s : list) {
-        map.get(s);
-    }
-
-}
-
-private static void populateSet(Map<String, String> map) {
-    map.clear();
-    for (String s : list) {
-        map.put(s, s);
-    }
-
-}
 
 
-private static void measureTimeToPopulate(Map<String, String> map, String setName, int reps) {
-    long start = System.currentTimeMillis();
-    for (int i = 0; i < reps; i++) {
-        populateSet(map);
-    }
-    long finish = System.currentTimeMillis();
-    System.out.println("Time to populate " + (reps * map.size()) + " entries in a " + setName + ": " + (finish - start));
-}
+  //Treemap put
+    long startTMP = System.currentTimeMillis();
+        for (int i = 0; i < 100000; i++) {
+            TM.put(Integer.toString(i), "foo");
+        }
+    long endTMP = System.currentTimeMillis();
+    long durationTMP = endTMP - startTMP;
+    
+ System.out.println("TreeMap put: " + durationTMP);
+ 
+ //Treemap get
+ 
+    long startTMG = System.currentTimeMillis();
+        for(int i = 0; i < 100000; i++) {
+            TM.get("0");
+            TM.get("1");
+            TM.get("2");
+            TM.get("3");
+            TM.get("4");
+            TM.get("5");
+            TM.get("6");
+            TM.get("7");
+            TM.get("8");
+            TM.get("9");
+        }
+    long endTMG = System.currentTimeMillis();
+    long durationTMG = endTMG - startTMG;
+    
+ System.out.println("TreeMap get: " + durationTMG);
+ 
+ //Treemap remove
+ 
+    long startTMR = System.currentTimeMillis();
+        for (int i = 0; i < 100000; i++) {
+            TM.remove(Integer.toString(i), "foo");
+        }
+    long endTMR = System.currentTimeMillis();
+    long durationTMR = endTMR - startTMR;
+    
+ System.out.println("TreeMap remove: " + durationTMR);
 
-private static void measureTimeToContains(Map<String, String> map, String setName, int reps) {
-    long start = System.currentTimeMillis();
-    for (int i = 0; i < reps; i++) {
-        get(map);
-    }
-    long finish = System.currentTimeMillis();
-    System.out.println("Time to get() " + (reps * map.size()) + " entries in a " + setName + ": " + (finish - start));
-}
-}
+  }
+ }
