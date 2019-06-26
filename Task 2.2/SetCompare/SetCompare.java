@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Set {
+public class SetCompare {
 
 public static void main(String[] args) {
  

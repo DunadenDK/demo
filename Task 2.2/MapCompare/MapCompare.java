@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class TimingTest {
+public class MapCompare {
   public static void main(String[] args) {
      
     Map<String, String> HM = new HashMap<String,String>();
