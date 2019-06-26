@@ -1,4 +1,4 @@
-//Java Program to Find the Modulus of a 
+//Java Program to Find the Modulus of a matrix
 
 package main.minsk.matrix;
 
